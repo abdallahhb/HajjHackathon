@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="list_places_adresse">
+
+        <item>Al Aziziyah, La Mecque 24243, Arabie saoudite</item>
+        <item>Al Maabdah, 4578, Mecca 24236, Mecca  </item>
+        <item>Mustashfa Ar Rafi Rd, An Nuzhah، An Nuzhah, Arabie saoudite</item>
+        <item>Al Mashair, Makkah 24251,Arabie saoudite</item>
+        <item>Ajyad, Safwa Towers, St, Mecca Arabie saoudite</item>
+        <item>Abraj Al Bait Complex, King Abdel Aziz Endowment،</item>
+        <item>Al Hajlah, Abraj Al-Bait Mecca, Makkah 24231</item>
+        <item>Abraj Al Bait Complex، Ajyad Street</item>
+
+
+    </string-array>
+    <string-array name="list_places">
+
+        <item>Saudi National Hospital, Makkah</item>
+        <item>King Faisal Hospital</item>
+        <item>Al Rafiea Hospital</item>
+        <item>Security Forces Hospital</item>
+        <item>Hôtel de la tour d\'Essafa</item>
+        <item>Hotel Pullman Zamzam Makkah</item>
+        <item>Mövenpick Hotel</item>
+        <item>Hotel Fairmont Makkah</item>
+
+
+    </string-array>
+
+</resources>

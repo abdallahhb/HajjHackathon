@@ -1,0 +1,19 @@
+<vector android:height="24dp" android:viewportHeight="512"
+    android:viewportWidth="512" android:width="24dp"
+    xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="m512,256c0,141.387 -114.613,256 -256,256s-256,-114.613 -256,-256 114.613,-256 256,-256 256,114.613 256,256zM512,256">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="512" android:endY="256"
+                android:startX="0" android:startY="256" android:type="linear">
+                <item android:color="#FF00F1FF" android:offset="0"/>
+                <item android:color="#FF00D8FF" android:offset="0.231"/>
+                <item android:color="#FF00C0FF" android:offset="0.5138"/>
+                <item android:color="#FF00B2FF" android:offset="0.7773"/>
+                <item android:color="#FF00ADFF" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#fff" android:pathData="m369.73,423.5h-227.461c-29.648,0 -53.77,-24.121 -53.77,-53.77v-25.848c0,-8.285 6.715,-15 15,-15s15,6.715 15,15v25.848c0,13.105 10.664,23.77 23.77,23.77h227.461c13.105,0 23.77,-10.664 23.77,-23.77v-227.461c0,-13.105 -10.664,-23.77 -23.77,-23.77h-227.461c-13.105,0 -23.77,10.664 -23.77,23.77v25.848c0,8.285 -6.715,15 -15,15s-15,-6.715 -15,-15v-25.848c0,-29.648 24.121,-53.77 53.77,-53.77h227.461c29.648,0 53.77,24.121 53.77,53.77v227.461c0,29.648 -24.121,53.77 -53.77,53.77zM369.73,423.5"/>
+    <path android:fillColor="#fff" android:pathData="m250.184,338.203c-3.809,0 -7.617,-1.438 -10.539,-4.328 -5.895,-5.82 -5.953,-15.316 -0.133,-21.211l48.328,-48.926c4.293,-4.297 4.293,-11.18 0.063,-15.41l-48.32,-48.273c-5.859,-5.855 -5.863,-15.352 -0.008,-21.211 5.852,-5.863 15.352,-5.867 21.211,-0.012l48.324,48.281c15.934,15.93 15.934,41.844 0.008,57.77l-48.262,48.859c-2.934,2.973 -6.801,4.461 -10.672,4.461zM250.184,338.203"/>
+    <path android:fillColor="#fff" android:pathData="m241.137,271h-137.637c-8.285,0 -15,-6.715 -15,-15s6.715,-15 15,-15h137.637c8.285,0 15,6.715 15,15s-6.715,15 -15,15zM241.137,271"/>
+</vector>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/outline"
+        android:drawableRight="@drawable/ic_search"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:textColor="#8d8d8d"
+        android:textColorHint="#8d8d8d"
+        android:theme="@style/EditText" />
+
+    <TextView
+        android:id="@+id/titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choses places"
+        android:textSize="18dp"
+        android:textColor="#757575"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/outline_list"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"/>
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</LinearLayout>

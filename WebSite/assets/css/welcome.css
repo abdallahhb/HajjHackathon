@@ -1,0 +1,29 @@
+p {
+font-size:25px;
+color:#fff;
+}
+
+* {
+	color: #000;
+}
+
+.words {
+	top:0px;
+	border: 2px solid red ;
+	border-radius:25px;
+	margin :40px;
+	background-color:#fff;
+}
+.transbox {
+background-color: #ffffff;
+opacity: 0.7;
+filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+navbar-default {
+		background-color: #F8F8F8;
+		border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+		color: #777;
+}

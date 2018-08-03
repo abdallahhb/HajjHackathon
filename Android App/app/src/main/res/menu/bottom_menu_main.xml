@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/power_off"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="Share Application"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/ic_notifications_none_black_24dp"
+        android:title="Application on IOS"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+
+
+</menu>

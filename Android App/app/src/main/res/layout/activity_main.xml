@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/setting_lang"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_weight="0"
+                android:background="@drawable/ic_settings" />
+
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Smart Hajj"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/setting_login"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/ic_login" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/outline"
+            android:drawableRight="@drawable/ic_search"
+            android:ems="10"
+            android:hint="Search"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="#8d8d8d"
+            android:textColorHint="#8d8d8d"
+            android:theme="@style/EditText" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/liny_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/outline_main"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="25dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/login" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="35dp"
+                    android:layout_weight="0"
+                    android:text="Log In"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/liny_bank"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/outline_main"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="25dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/recommendation" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="35dp"
+                    android:layout_weight="0"
+                    android:text="Suggestion"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/liny_Airport"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/outline_main"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="25dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/phone" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="35dp"
+                    android:layout_weight="0"
+                    android:text="Report"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/liny_Restauants"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/outline_main"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="25dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/destination" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="35dp"
+                    android:layout_weight="0"
+                    android:text="tourism"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginBottom="56dp"-->
+    <!--android:fillViewport="true"-->
+    <!--android:padding="5dp">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/liny_hotel"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:background="@drawable/outline_main"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+
+    <!--&gt;-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="25dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="@drawable/ic_sleeping_bed_silhouette" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="Hotel"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="6 item"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#3e3e3e"-->
+    <!--android:textSize="12dp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/liny_bank"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:background="@drawable/outline_main"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+
+    <!--&gt;-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="25dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="@drawable/dollar_bill" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="Bank"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="13 item"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#3e3e3e"-->
+    <!--android:textSize="12dp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/liny_Doctor"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:background="@drawable/outline_main"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+
+    <!--&gt;-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="25dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="@drawable/ic_relaxing_massage" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="Doctor"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="80 item"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#3e3e3e"-->
+    <!--android:textSize="12dp" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/liny_Airport"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:background="@drawable/outline_main"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+
+    <!--&gt;-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="25dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="@drawable/aeroplane_" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="Airport"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="3 item"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#3e3e3e"-->
+    <!--android:textSize="12dp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/liny_Restauants"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:background="@drawable/outline_main"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+
+    <!--&gt;-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="25dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="@drawable/knife_and_fork_silhouette" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="Restauants"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="120 item"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#3e3e3e"-->
+    <!--android:textSize="12dp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/liny_police"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:background="@drawable/outline_main"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+
+    <!--&gt;-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="25dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:background="@drawable/police_shield" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="Policeman"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="6 item"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#3e3e3e"-->
+    <!--android:textSize="12dp" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--</android.support.v4.widget.NestedScrollView>-->
+
+
+</LinearLayout>

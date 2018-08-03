@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "101173058047",
+    "firebase_url": "https://hajj-82d93.firebaseio.com",
+    "project_id": "hajj-82d93",
+    "storage_bucket": "hajj-82d93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101173058047:android:a68393bcfcd6dcd9",
+        "android_client_info": {
+          "package_name": "com.smart.hajj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101173058047-kp777f9h0umf1jsogct5t442pb6hp0t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADoGUjh_G-7-rEruH2KV-48sC0v9_WagI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

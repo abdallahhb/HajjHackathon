@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/lang"
+        android:orderInCategory="101"
+        android:title="Application Language">
+    </item>
+    <item
+        android:id="@+id/message"
+        android:orderInCategory="102"
+        android:title="Hello Message">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="103"
+        android:title="Exit Application">
+    </item>
+</menu>
